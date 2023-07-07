@@ -14,7 +14,6 @@ const Navbar=({changeMode,mode})=>{
                             <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
-                            {/* <a className="nav-link" aria-current="page" href="/about">About</a> */}
                         </ul>
                         <div className="form-check form-switch">
                             <input onChange={changeMode} className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
